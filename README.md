@@ -32,7 +32,7 @@ You need to implement the following five functions:
 <optimize_parameters>: calculate loss, gradients, and update network weights.
 <modify_commandline_options>: add model-specific options and set default options.
 ```
- - In the function `<__init__>`, you need to define four lists:
+ - In the function `<__init__>`, you need to define three lists:
 ```
 self.loss_names (str list):specify the training losses that you want to plot and save.
 self.model_names (str list): define networks used in our training.
