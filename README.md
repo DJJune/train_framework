@@ -9,7 +9,7 @@
 
 ### Define custom dataset
 
-- define custom dataset class called `Gxxx`, you need to add a file called `Gxxx_dataset.py` and define a subclass `GxxxDataset` inherited from BaseDataset.
+- define custom dataset class called `Gxxx`, you need to add a file called `data/Gxxx_dataset.py` and define a subclass `GxxxDataset` inherited from BaseDataset.
 - You need to implement four functions:
 ```
 <__init__>: initialize the class, first call BaseDataset.__init__(self, opt).
@@ -23,7 +23,7 @@ Now you can use the dataset class by specifying flag '--dataset_mode Gxxx'.
 
 ### Define custom model
 
-- To add a custom model class called `hh`, you need to add a file called `hh_model.py` and define a subclass `HhModel` inherited from BaseModel.
+- To add a custom model class called `hh`, you need to add a file called `models/hh_model.py` and define a subclass `HhModel` inherited from BaseModel.
 You need to implement the following five functions:
 ```
 <__init__>: initialize the class; first call BaseModel.__init__(self, opt).
