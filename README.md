@@ -51,12 +51,12 @@ Run `python train.py --verbose --model example   --dataset_mode example --name w
 check all the options in `opt/base_opts.py` and `opt/train_opts.py`
 
 e.g. 
-> --niter : which of iter to adjust learning rate
-> --niter_decay : which of iter to linearly decay learning rate to zero
-> --lr_policy : learning rate policy. [linear | step | plateau | cosine]
-> --init_type : network initialization [normal | xavier | kaiming | orthogonal]
-> --verbose : whether print the options
-> ....
+- --niter : which of iter to adjust learning rate
+- --niter_decay : which of iter to linearly decay learning rate to zero
+- --lr_policy : learning rate policy. [linear | step | plateau | cosine]
+- --init_type : network initialization [normal | xavier | kaiming | orthogonal]
+- --verbose : whether print the options
+- ....
 
 
 ## Testing
