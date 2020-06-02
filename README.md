@@ -62,7 +62,7 @@ e.g.
 ## Testing
 Run `python test.py --model example   --dataset_mode example --name whatever_you_like --eval_epoch (int)`
 
-## visualization
+## Visualization
 `tensorboard --logdir='runs/' --port=8888`
   
 
